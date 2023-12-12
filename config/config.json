@@ -1,0 +1,34 @@
+{
+    "glint360k": {
+        "magnet_link": "magnet:?xt=urn:btih:E5F46EE502B9E76DA8CC3A0E4F7C17E4000C7B1E&dn=glint360k",
+        "torrent_path": "./data/glint360k/glint360k-e5f46ee502b9e76da8cc3a0e4f7c17e4000c7b1e.torrent",
+        "orig_dataset_dir": "./data/",
+        "balanced_dataset_dir": "./data/glint360k/balanced_data/",
+        "features": "E:/balanced_glint360k/new_embeddings/",
+        "scenario_embs": "./scenarios/glint360k/embs/",
+        "scenario_submodels": "./scenarios/glint360k/submodels/"
+    },
+    "ms-celeb-1m": {
+        "torrent_path": "./data/MS-Celeb-1M/MS-Celeb-1M-9e67eb7cc23c9417f39778a8e06cca5e26196a97.torrent",
+        "orig_dataset_dir": "./data/",
+        "balanced_dataset_dir": "./data/MS-Celeb-1M/balanced_data/",
+        "features": "E:/balanced_ms1m/new_embeddings/",
+        "scenario_embs": "./scenarios/MS-Celeb-1M/embs/",
+        "scenario_submodels": "./scenarios/MS-Celeb-1M/submodels/"
+    },
+    "vggface2": {
+        "magnet_link": "magnet:?xt=urn:btih:535113b8395832f09121bc53ac85d7bc8ef6fa5b&tr=https%3A%2F%2Facademictorrents.com%2Fannounce.php&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce",
+        "orig_dataset_dir": "./data/",
+        "balanced_dataset_dir": "./data/vggface2/balanced_data/",
+        "features": "I:/balanced_vggface2/sface_embeddings/",
+        "scenario_embs": "./scenarios/vggface2/embs/",
+        "scenario_submodels": "./scenarios/vggface2/submodels/"
+    },
+    "method": "ISM",
+    "n_classes": 10000,
+    "n_clusters": 5,
+    "distance_measure": "cosine",
+    "dataset_name": "glint360k",
+    "overwrite": true,
+    "epochs": 50
+}

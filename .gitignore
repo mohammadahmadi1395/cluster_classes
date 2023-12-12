@@ -1,0 +1,18 @@
+features/*
+scenarios/*
+data/glint360k/old_all_id_files.json
+extra/*
+models/model.onnx
+results/glint360k_results.db
+results/results - Copy.db
+results/results.txt
+results/results.txt.bak
+results/vggface2_results.db
+notebooks/glint360k/all_id_files.json
+notebooks/test.ipynb
+notebooks/ttest.ipynb
+notebooks/ttest_copy.ipynb
+notebooks/tttest.ipynb
+notebooks/main_notebook.ipynb
+data/glint360k/all_id_files.json
+data/MS-Celeb-1M/all_id_files.json
